@@ -13,7 +13,7 @@ document.getElementById("chaineMaj").innerText = newText;
 
 for (let i = 0; i < newText.length; i++) {
     if (newText[i] === "A") {
-        alert("hhh");
+        alert("lettre a trouvé");
     }
 }
 
