@@ -12,11 +12,9 @@ document.getElementById("position").innerText = monTexte.indexOf("i");
 document.getElementById("chaineMaj").innerText = newText;
 
 for (let i = 0; i < newText.length; i++) {
-    if (newText[i] === "a") {
-        alert("lettre a trouvé");
-        i++;
+    if (newText[i] === "A") {
+        alert("hhh");
     }
-
 }
 
 
